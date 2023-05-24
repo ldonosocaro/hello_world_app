@@ -1,0 +1,28 @@
+.dart_tools
+    seguimiento a los paquetes, es como el package_lock de node
+.idea
+    configuraciones de intelliJ
+android
+    codigo para android, configuraciones para android
+ios
+    codigo para xcode
+lib
+    codigo fuente del proyecto, donde vive el main.dart
+linux
+    codigo para linux
+macos
+    codigo para macOSX
+test
+    codigo para test
+web
+    codigo para web
+windows
+    codigo para windows
+.metadata
+    propiedades del proyecto
+analysis_options
+    analisis de codigo por linter, configuracion
+pubspec.lock
+    seguimiento a dependencias del proyecto
+pubspec.yaml
+    config del proyecto en General, parecido a package.json de node, donde se puede subir fotos estaticas, fuentes de letra, uso de material design, etc.

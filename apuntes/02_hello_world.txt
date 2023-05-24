@@ -1,0 +1,36 @@
+todo proyecto en el main debe llamar a un widget inicial
+
+Stateless Widget
+sin manejo de estado
+
+Statefull widget
+con manejo de estado
+
+Widget Scaffold
+Crea una estructura de material 
+
+Key de Widget
+es un identificador para poder darle un codigo unico a cada widget y poder identificarlo en el arbol de widget
+
+al crear un widget, agregar const MyApp({super.key});
+
+ejemplo
+
+class Ejemplo extends StatelessWidget{
+    const MyApp({super.key});
+
+}
+
+Scaffold
+Sidget que crea una estructura de tipo material
+
+Scaffold(
+ appBar: AppBar(
+ title: const Text('Sample Code'),
+ ),
+ body: const Center(child: Text('5 clicks!')),
+ floatingActionButton: FloatingActionButton(
+ onPressed: (){},
+ child: const Icon(Icons.add),
+ ),
+ );
